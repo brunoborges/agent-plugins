@@ -22,7 +22,7 @@
       "keywords": ["github", "cli", "cache", "proxy", "rate-limit", "performance", "agentic"],
       "source": {
         "source": "git-subdir",
-        "url": "brunoborges/ghcd",
+        "url": "https://github.com/brunoborges/ghcd.git",
         "path": "agents-plugin"
       }
     }
