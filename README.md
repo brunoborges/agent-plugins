@@ -1,4 +1,4 @@
-# ghcd-plugins
+# agent-plugins
 
 Plugin marketplace for [ghcd — GitHub CLI Cache Proxy](https://github.com/brunoborges/ghcd).
 
@@ -10,18 +10,18 @@ This marketplace distributes the **ghcd** plugin for [Claude Code](https://code.
 
 ```bash
 # Add the marketplace
-/plugin marketplace add brunoborges/ghcd-plugins
+/plugin marketplace add brunoborges/agent-plugins
 
 # Install the plugin
-/plugin install ghcd@ghcd-plugins
+/plugin install ghcd@agent-plugins
 ```
 
 ### GitHub Copilot CLI
 
 ```bash
 # Option 1: Via marketplace
-copilot plugin marketplace add brunoborges/ghcd-plugins
-copilot plugin install ghcd@ghcd-plugins
+copilot plugin marketplace add brunoborges/agent-plugins
+copilot plugin install ghcd@agent-plugins
 
 # Option 2: Direct install (no marketplace needed)
 copilot plugin install brunoborges/ghcd:agents-plugin
