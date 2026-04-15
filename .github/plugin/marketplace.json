@@ -1,0 +1,30 @@
+{
+  "name": "ghcd-plugins",
+  "owner": {
+    "name": "Bruno Borges",
+    "email": "bruno@brunoborges.dev"
+  },
+  "metadata": {
+    "description": "Plugins for ghcd — GitHub CLI Cache Proxy",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ghcd",
+      "description": "GitHub CLI Cache Proxy — eliminates redundant API calls, prevents rate limiting, and speeds up repeated gh commands in agentic workflows",
+      "version": "1.0.0",
+      "author": {
+        "name": "Bruno Borges"
+      },
+      "homepage": "https://brunoborges.github.io/ghcd/",
+      "repository": "https://github.com/brunoborges/ghcd",
+      "license": "MIT",
+      "keywords": ["github", "cli", "cache", "proxy", "rate-limit", "performance", "agentic"],
+      "source": {
+        "source": "git-subdir",
+        "url": "brunoborges/ghcd",
+        "path": "agents-plugin"
+      }
+    }
+  ]
+}
