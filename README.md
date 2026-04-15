@@ -24,7 +24,7 @@ copilot plugin marketplace add brunoborges/agent-plugins
 copilot plugin install ghcd@agent-plugins
 
 # Option 2: Direct install (no marketplace needed)
-copilot plugin install brunoborges/ghcd:agents-plugin
+copilot plugin install brunoborges/ghcd:agent-plugin
 ```
 
 ## What the plugin does
@@ -40,7 +40,7 @@ This eliminates redundant API calls, prevents rate limiting, and dramatically sp
 ## Learn more
 
 - [ghcd project](https://github.com/brunoborges/ghcd)
-- [Plugin README](https://github.com/brunoborges/ghcd/tree/main/agents-plugin)
+- [Plugin README](https://github.com/brunoborges/ghcd/tree/main/agent-plugin)
 - [ghcd website](https://brunoborges.github.io/ghcd/)
 
 ## License
