@@ -6,13 +6,16 @@
   },
   "metadata": {
     "description": "Curated agentic CLI plugins by Bruno Borges",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "ghcd",
-      "source": "ghcd",
+      "source": {
+        "source": "github",
+        "repo": "brunoborges/ghcd",
+        "path": "agents-plugin"
+      },
       "description": "GitHub CLI Cache Proxy — eliminates redundant API calls, prevents rate limiting, and speeds up repeated gh commands in agentic workflows",
       "version": "1.0.0",
       "author": {
